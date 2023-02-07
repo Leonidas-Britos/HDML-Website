@@ -399,6 +399,19 @@ td {
 
   @media only screen and (max-width: 320px) {
 
+    .banner_titulo, .banner_imagen {
+        display: none;
+    
+    }
 
+    .nav_page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav>a {
+        text-align: center;
+        width: 140%;
+    }
   }
   
