@@ -413,5 +413,14 @@ td {
         text-align: center;
         width: 140%;
     }
+
+    .header {
+        margin-left: 30%;
+    }
+
+    .header_logo {
+        margin-left: 65%;
+    }
+
   }
   
