@@ -341,13 +341,27 @@ td {
 }
 
 .contenido_registration {
-    
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.button_registration {
+    background-color: #fdfdfd;
+    border-color: green ;
+    border-radius: 10px;
+    color: green;
+    padding: 10px;
+    width: 150px;
+}
+
+.button_registration:hover {
+    border-color: red ;
+    color: red;
+}
 
 /*-------------------------------------------QUERIES----------------------------------------------------*/
 
@@ -370,6 +384,7 @@ td {
 
     .imagen_contact, .imagen_home, .imagen_about {
         margin: 50px;
+        
     }
 
     .texto_home {
@@ -395,7 +410,7 @@ td {
 
         .imagen_contact, .imagen_home, .imagen_about {
             margin: 25px;
-            width: 150%;
+            width: 140%;
         }
 
         .texto_home {
