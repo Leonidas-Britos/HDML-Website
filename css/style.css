@@ -128,7 +128,7 @@ legend {
     background-color: #fdfdfdb4;
     display: inline-block;
     font-family: sans-serif;
-    height: 270px;
+    height: 320px;
     padding-left: 40px;
     padding-top: 20px;
     width: 400px;
@@ -387,6 +387,19 @@ td {
         .nav_page {
             display: flex;
             flex-direction: column;
+        }
+
+        .contenido_contact, .contenido_home, .contenido_about {
+            flex-direction: column;
+        }
+
+        .imagen_contact, .imagen_home, .imagen_about {
+            margin: 25px;
+            width: 150%;
+        }
+
+        .texto_home {
+            height: 320px;
         }
 
     }
