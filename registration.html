@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
-<h2></h2>
+
 <body>
     <header class="header">
         <img class="header_logo" src="./img/Logo_Mighty_duck_banner.png" alt="logo mighty ducks">
@@ -30,72 +30,126 @@
     <main>
         <section class="contenido_registration">
             <h2>Registration Form</h2>
-
-
-
             <form action="/formAction.html" method="get">
-                <label for="fname">Player´s First Name:</label>
-                <input type="text" id="fname" name="fname">
-                <br><br>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname">
-                <br><br>
-                <label for="streetAddress">Street Address:</label>
-                <input type="text" id="streetAddress" name="streetAddress">
-                <br><br>
-                <label for="city">City:</label>
-                <input type="text" id="city" name="city">
-                <br><br>
-                <label for="zipcode">Zip Code:</label>
-                <input type="text" id="zipcode" name="zipcode">
-                <br><br>
-                <label for="birthdate">Birth Date:</label>
-                <input type="date" id="birthdate" name="birthdate">
-                <br><br>
-                <label for="gender" id="gender">Gender:</label>
-                <input type="radio" id="gender" name="gender" value="female">
-                <label for="female">Female</label>
-                <input type="radio" id="gender" name="gender" value="male">
-                <label for="female">Male</label>
-                <br><br>
-                <legend>Grade:</legend>
-                <input type="checkbox" id="cbSchool" name="cbSchool" value="preSchool">
-                <label for="preSchool">Pree-School</label>
-                <input type="checkbox" id="cbSchool" name="cbSchool" value="1st">
-                <label for="1st">1st</label>
-                <input type="checkbox" id="cbSchool" name="cbSchool" value="2nd">
-                <label for="2nd">2nd</label>
-                <input type="checkbox" id="cbSchool" name="cbSchool" value="3rd">
-                <label for="3rd">3rd</label>
-                <input type="checkbox" id="cbSchool" name="cbSchool" value="4th">
-                <label for="4th">4th</label>
-                <input type="checkbox" id="cbSchool" name="cbSchool" value="5th">
-                <label for="5th">5th</label>
-                <br><br>
-                <legend>Which elementary school do you live near?</legend>
-                <legend>Closest School:</legend>
-                <input type="checkbox" id="school" name="school" value="op1">
-                <label for="op1">Pree-School</label>
-                <input type="checkbox" id="school" name="school" value="op2">
-                <label for="op2">1st</label>
-                <input type="checkbox" id="school" name="school" value="op3">
-                <label for="op3">2nd</label>
-                <input type="checkbox" id="school" name="school" value="op4">
-                <label for="op4">3rd</label>
-                <input type="checkbox" id="school" name="school" value="op5">
-                <label for="op5">4th</label>
-                <input type="checkbox" id="school" name="school" value="op4">
-                <label for="5th">5th</label>
-
-
+                <fieldset>
+                    <label for="fname">Player´s First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <br><br>
+                    <label for="streetAddress">Street Address:</label>
+                    <input type="text" id="streetAddress" name="streetAddress">
+                    <br><br>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                    <br><br>
+                    <label for="zipcode">Zip Code:</label>
+                    <input type="text" id="zipcode" name="zipcode">
+                    <br><br>
+                    <label for="birthdate">Birth Date:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                    <br><br>
+                    <label>Gender:</label>
+                    <input type="radio" name="female" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="male" id="male">
+                    <label for="male">Male</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Grade:</legend>
+                    <input type="checkbox" id="cbGrade1" name="cbGrade1" value="ps">
+                    <label for="cbGrade1">Pree-School</label>
+                    <input type="checkbox" id="cbGrade2" name="cbGrade2" value="1st">
+                    <label for="cbGrade2">1st</label>
+                    <input type="checkbox" id="cbGrade3" name="cbGrade3" value="2nd">
+                    <label for="cbGrade3">2nd</label>
+                    <input type="checkbox" id="cbGrade4" name="cbGrade4" value="3rd">
+                    <label for="cbGrade4">3rd</label>
+                    <input type="checkbox" id="cbGrade5" name="cbGrade5" value="4th">
+                    <label for="cbGrade5">4th</label>
+                    <input type="checkbox" id="cbGrade6" name="cbGrade6" value="5th">
+                    <label for="cbGrade6">5th</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <label>Closest School:</label>
+                    <input type="checkbox" id="cbSchool1" name="cbSchool1" value="aj">
+                    <label for="cbSchool1">AJ Katzenmaier</label>
+                    <input type="checkbox" id="cbSchool2" name="cbSchool2" value="greenbay">
+                    <label for="cbSchool2">Greenbay</label>
+                    <input type="checkbox" id="cbSchool3" name="cbSchool3" value="howard">
+                    <label for="cbSchool3">Howard A Yeager</label>
+                    <input type="checkbox" id="cbSchool4" name="cbSchool4" value="marjorie">
+                    <label for="cbSchool4">Marjorie P Hart</label>
+                    <input type="checkbox" id="cbSchool5" name="cbSchool5" value="north">
+                    <label for="cbSchool5">North Elementary</label>
+                    <input type="checkbox" id="cbSchool6" name="cbSchool6" value="south">
+                    <label for="cbSchool6">South Elementary</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>What position(s) do you normally play? (check all that apply)</legend>
+                    <input type="checkbox" id="cbPosition1" name="cbPosition1" value="forward">
+                    <label for="cbPosition1">Forward</label>
+                    <input type="checkbox" id="cbPosition2" name="cbPosition2" value="defense">
+                    <label for="cbPosition2">Defense</label>
+                    <input type="checkbox" id="cbPosition3" name="cbPosition3" value="midfield">
+                    <label for="cbPosition3">Midfield</label>
+                    <input type="checkbox" id="cbPosition4" name="cbPosition4" value="goalkeeper">
+                    <label for="cbPosition4">Goalkeeper</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Uniform Size:</legend>
+                    <input type="checkbox" id="cbUniform1" name="cbUniform1" value="ys">
+                    <label for="cbUniform1">Youth Small</label>
+                    <input type="checkbox" id="cbUniform2" name="cbUniform2" value="ym">
+                    <label for="cbUniform2">Youth Medium</label>
+                    <input type="checkbox" id="cbUniform3" name="cbUniform3" value="yl">
+                    <label for="cbUniform3">Youth Large</label>
+                    <input type="checkbox" id="cbUniform4" name="cbUniform4" value="s">
+                    <label for="cbUniform4">Small</label>
+                    <input type="checkbox" id="cbUniform5" name="cbUniform5" value="m">
+                    <label for="cbUniform5">Medium</label>
+                    <input type="checkbox" id="cbUniform6" name="cbUniform6" value="l">
+                    <label for="cbUniform6">Large</label>
+                    <input type="checkbox" id="cbUniform7" name="cbUniform7" value="xl">
+                    <label for="cbUniform7">Extra-Large</label>
+                </fieldset>
+                <br>
             </form>
-
+            <fieldset>
+                <legend>Permission to Play:</legend>
+                <p>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the rules of the Mighty Ducks Hockey League (MDHL).
+                    In recognizing the possibility of physical injury associated with hockey and in consideration for
+                    the "League" accepting the registrant for its hockey programs and activities,
+                    I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated
+                    personnel and volunteers, including the facilities used for practices and games, against any claim
+                    by or on behalf of the registrant as a result of the registrant´s participation in the
+                    programand/orbeing trasported to or from MDHL sponsored activities, wich transportation.
+                    By signing below, I herebyagre andauthorizethe above. In addition, by signing below, I also
+                    acknowledge that I have read the cancellation policy and agree to its terms.
+                </p>
+                <br>
+                <form action="/formAction.html" method="get">
+                    <label for="ffname">Player´s First Name:</label>
+                    <input type="text" id="ffname" name="ffname">
+                    <br><br>
+                    <label for="flname">Last Name:</label>
+                    <input type="text" id="flname" name="flname">
+                </form>
+            </fieldset>
 
         </section>
     </main>
     <footer>
         <hr>
-        <p>©Mighty Ducks Hockey League All rights reserved, 2023</p>
+        <p>©Mighty Ducks Hockey League All rights reserved-2023</p>
     </footer>
 </body>
 
