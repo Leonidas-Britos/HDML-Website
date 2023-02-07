@@ -96,7 +96,6 @@ fieldset {
     border-radius: 20px;
     background-color: #fdfdfdb4;
     padding: 1.5rem;
-    width: 60%;
 }
 
 legend {
@@ -342,17 +341,18 @@ td {
 }
 
 .contenido_registration {
-    align-items: center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
 /*-------------------------------------------QUERIES----------------------------------------------------*/
 
 
-@media only screen and (min-width: 767px) and (max-width: 1080px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
     
     .banner_titulo {
         top: 95%;
