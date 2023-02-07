@@ -382,6 +382,18 @@ td {
     .texto_home {
         height: 350px;
     }
+
+    .imagen_home {
+        margin: 50px;
+    }
+
+    .contenido_about {
+        flex-direction: column;
+    }
+
+    .imagen_about {
+        margin: 40px;
+    }
     
   }
   
